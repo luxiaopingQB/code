@@ -1,4 +1,5 @@
 ###链表
+add new aaa
 
 class Node(): 
 ##链表节点结构
@@ -64,7 +65,7 @@ class SingChain():
 			count=0
 			while True:
 				count+=1
-				if index==count:
+	sssss   			if index==count:
 					node._next=node._next._next
 					break
 				node=node._next
